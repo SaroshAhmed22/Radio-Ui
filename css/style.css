@@ -19,7 +19,7 @@ color: white !important;
 padding:10px 20px;
 }
 .slider-btn1{
-    background-color: red;
+    background: linear-gradient(to right, #ed213a, #93291e);
     width:35%;
     border-radius:10px 0 0 10px;
 
@@ -27,7 +27,7 @@ padding:10px 20px;
 }
 
 .slider-btn2{
-    background-color: blue;
+     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); ;
     width: 35%;
     border-radius:0 10px 10px 0;
 }
@@ -47,18 +47,42 @@ padding:10px 20px;
 
 .square{
     position: absolute;
-    border: 4px solid red;
+    border: 5px solid rgb(254, 206, 82);
     width: 250px;
     height: 210px;
     margin-top: -13px;
     margin-left: -15px;
 }
 
-.card img{
-    width: 100% !important;
-    height:250px !important;
+.card-slider .card {
+    width: 250px;
+    height: 286px;
+
 }
 
+.card img{
+    width: 100% !important;
+    height:210px !important;
+}
+.se1{
+    width: 110px;
+    background: linear-gradient(to right, #ed213a, #93291e);
+    height: 4px;
+}
+
+.se2{
+    width: 123px;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    height: 4px;
+
+}
+
+.dj-lines{
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    height: 3px;
+    width: 207px;
+
+}
 /* ! studio end  */
 
 
