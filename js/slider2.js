@@ -1,6 +1,6 @@
 $(document).ready(function ($) {
     $('.card-slider').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -11,14 +11,14 @@ $(document).ready(function ($) {
         responsive: [{
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         },
         {
             breakpoint: 400,
             settings: {
-                arrows: false,
+                arrows: true,
                 slidesToShow: 1,
                 slidesToScroll: 1
             }
@@ -41,10 +41,7 @@ $(document).ready(function ($) {
         responsive: [{
             breakpoint: 600,
             settings: {
-
-
-
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         },
@@ -53,8 +50,6 @@ $(document).ready(function ($) {
             settings: {
                 dots: false,
                 arrows: true,
-
-
                 slidesToShow: 1,
                 slidesToScroll: 1
             }

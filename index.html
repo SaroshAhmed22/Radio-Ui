@@ -29,8 +29,15 @@
   <!-- !for slider4 start -->
   <link rel="stylesheet" href="css/Slider4.css">
   <!-- !for slider4 end -->
+
+  <!--! data oas start -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--! data oas end -->
+
   <link rel="stylesheet" href="css/HeadSlider.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Media.css">
 </head>
 
 <body>
@@ -53,27 +60,27 @@
       <div class="collapse navbar-collapse" id="basicExampleNav">
         <!-- Links -->
         <ul class="navbar-nav  ml-auto">
-          <li class="nav-item">
+          <li class="nav-item navitem1">
             <a class="nav-link" href="#">Home
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PLAYING / HISTORY </a>
+          <li class="nav-item ">
+            <a class="nav-link nav-items" href="#">PLAYING / HISTORY </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SCHEDULE </a>
+            <a class="nav-link nav-items" href="#">SCHEDULE </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">STUDIO ENGINEER</a>
+            <a class="nav-link nav-items" href="#">STUDIO ENGINEER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GOSPEL </a>
+            <a class="nav-link nav-items" href="#">GOSPEL </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GUEST BOOK</a>
+            <a class="nav-link nav-items" href="#">GUEST BOOK</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a>
@@ -100,7 +107,7 @@
                 <div class="slideshow__slide-background background-absolute">
                   <div class="slideshow__slide-image-wrap background-absolute">
                     <div class="slideshow__slide-image background-absolute"
-                      style="background-image: url('img/SLider1/Slider1.jpg');">
+                      style="background-image: url('img/SLider1/slider1.jpeg');">
                     </div>
                   </div>
                 </div>
@@ -111,12 +118,20 @@
         <div class="slideshow__slide-caption">
           <div class="slideshow__slide-caption-text">
             <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
-              <h1 class="slideshow__slide-caption-title">HALLELUJAH GOSPEL GLOBALLY’S
-              </h1>
-              <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
-                <!-- <span class="slideshow__slide-caption-subtitle-label">See how</span> -->
-                <span class=" font-italic " style="margin-top: -100px !important;">Worldwide Search for Anointed</span>
-              </a>
+              <div class="main-setting">
+                <h2 class="slideshow__slide-caption-title main-heading heading-setting" data-aos="fade-up">HALLELUJAH
+                  GOSPEL GLOBALLY’S
+                </h2>
+                <span class=" font-italic main-heading2" data-aos="fade-right">Worldwide Search for
+                  Anointed
+                </span><br>
+                <span class="main-heading2 font-italic" data-aos="fade-right">
+                  Praisers and Worshippers!</span>
+
+              </div>
+              <!-- <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                <span class="slideshow__slide-caption-subtitle-label">See how</span>
+              </a> -->
             </div>
           </div>
         </div>
@@ -142,10 +157,14 @@
         <div class="slideshow__slide-caption">
           <div class="slideshow__slide-caption-text">
             <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
-              <h1 class="slideshow__slide-caption-title">See through the field</h1>
-              <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
-                <span class="slideshow__slide-caption-subtitle-label">Learn more about</span>
-              </a>
+              <h2 class="slideshow__slide-caption-title main-heading heading-setting" data-aos="fade-up">HALLELUJAH
+                GOSPEL GLOBALLY’S
+              </h2>
+              <span class=" font-italic main-heading2" data-aos="fade-right">Worldwide Search for
+                Anointed
+              </span><br>
+              <span class="main-heading2 font-italic" data-aos="fade-right">
+                Praisers and Worshippers!</span>
             </div>
           </div>
         </div>
@@ -164,6 +183,21 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slideshow__slide-caption">
+            <div class="slideshow__slide-caption-text">
+              <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                <h2 class="slideshow__slide-caption-title main-heading heading-setting" data-aos="fade-up">HALLELUJAH
+                  GOSPEL GLOBALLY’S
+                </h2>
+                <span class=" font-italic main-heading2" data-aos="fade-right">Worldwide Search for
+                  Anointed
+                </span><br>
+                <span class="main-heading2 font-italic" data-aos="fade-right">
+                  Praisers and Worshippers!</span>
               </div>
             </div>
           </div>
@@ -223,11 +257,11 @@
   <div class="container-fluid  the-btns">
     <div class="container all-btns">
       <div class="row ">
-        <div class=" col-md-6 col-12 p-0">
+        <div class=" col-md-6 col-12 p-0" data-aos="fade-down">
           <div class="top-bt1  ">
             <div class="d-flex  justify-content-center">
               <div>
-                <img src="img/header/btn1img.PNG" alt="" class="img-fluid">
+                <img src="img/header-btns/bt2.png" alt="" class="img-fluid">
               </div>
               <div class=" d-flex justify-content-center align-items-center btn-heading-div">
                 <h2 class="" style="">LISTEN</h2>
@@ -235,11 +269,11 @@
             </div>
           </div>
         </div>
-        <div class=" col-md-6 col-12 p-0">
+        <div class=" col-md-6 col-12 p-0" data-aos="fade-down">
           <div class="top-bt2  ">
             <div class="d-flex  justify-content-center">
               <div>
-                <img src="img/header/btn2img.PNG" alt="" class="img-fluid">
+                <img src="img/header-btns/bt1.png" alt="" class="img-fluid">
               </div>
               <div class=" d-flex justify-content-center align-items-center btn-heading-div">
                 <h2 class="" style="">POP-UP</h2>
@@ -271,7 +305,7 @@
       </div>
       <!--! slider2 start -->
       <div class="card-slider     ">
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade-down">
           <div class="card  w-100 ">
             <div class="square "></div>
             <div class="">
@@ -284,7 +318,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade-down">
           <div class="card   w-100">
             <div class="square "></div>
             <div class="">
@@ -297,7 +331,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade-down">
           <div class="card  w-100 ">
             <div class="square "></div>
             <div class="">
@@ -310,7 +344,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade-down">
           <div class="card  w-100 ">
             <div class="square "></div>
             <div class="">
@@ -323,7 +357,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade-down">
           <div class="card w-100  ">
             <div class="square d"></div>
             <div class="">
@@ -355,7 +389,7 @@
           <!-- * list start -->
           <div class="mt-5 ">
             <!-- *item1  start-->
-            <div class="">
+            <div class="" data-aos="fade">
               <div class="  d-flex align-items-center">
                 <div class="list-dot">
                   <i class="fa-sm text-white fas fa-check ml-2 mt-2"></i>
@@ -382,7 +416,7 @@
             <!-- * list start -->
             <div class="mt-4 ">
               <!-- *item1  start-->
-              <div class="">
+              <div class="" data-aos="fade">
                 <div class="  d-flex align-items-center">
                   <div class="list-dot">
                     <i class="fa-sm text-white fas fa-check ml-2 mt-2"></i>
@@ -408,7 +442,7 @@
               <!-- * list start -->
               <div class="mt-4 ">
                 <!-- *item1  start-->
-                <div class="">
+                <div class="" data-aos="fade">
                   <div class="  d-flex align-items-center">
                     <div class="list-dot">
                       <i class="fa-sm text-white fas fa-check ml-2 mt-2"></i>
@@ -439,10 +473,10 @@
         <div class="col-md-6 col-12 mt-3">
           <div class="row">
             <div class="p-0 col-md-6 col-6 ">
-              <div class="pt-5 pb-5 program-1">
+              <div class="pt-5 pb-5 program-1" data-aos="fade-down">
                 <img src="img/program/program1.png" alt="" class="">
               </div>
-              <div class=" program-2 d-flex justify-content-center align-items-center">
+              <div class=" program-2 d-flex justify-content-center align-items-center" data-aos="fade-down">
                 <div class="program-2a mt-4 mb-4 d-flex justify-content-center align-items-center">
                   <h2 class="text-white text-center ">LIVE </h2>
                   <h2 class="text-white text-center">BROADCAST</h2>
@@ -450,14 +484,14 @@
               </div>
             </div>
             <div class="col-md-6 mt-5 col-6  p-0">
-              <div class=" program-3 d-flex justify-content-center align-items-center">
+              <div class=" program-3 d-flex justify-content-center align-items-center" data-aos="fade-up">
                 <div class="program-3a mt-4 mb-4 d-flex justify-content-center align-items-center">
                   <h2 class="text-white text-center ">LIVE </h2>
                   <h2 class="text-white text-center">JOIN US !</h2>
                 </div>
               </div>
 
-              <div class=" program-4 d-flex justify-content-center align-items-center">
+              <div class=" program-4 d-flex justify-content-center align-items-center" data-aos="fade-up">
                 <div class="program-3a mt-4 mb-4 d-flex justify-content-center align-items-center">
                   <h2 class="text-white text-center ">MUCH MORE.. </h2>
 
@@ -478,20 +512,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-12 ">
-          <div class="gallery">
-            <div class="gallery-container">
-              <img class="gallery-item gallery-item-1" src="img/slider3/S1.png" data-index="1">
-              <img class="gallery-item gallery-item-2" src="img/slider3/S2.png" data-index="2">
-              <img class="gallery-item gallery-item-3" src="img/slider3/S3.png" data-index="3">
-              <img class="gallery-item gallery-item-4" src="img/slider3/S4.png" data-index="4">
-              <img class="gallery-item gallery-item-5" src="aa.PNG" data-index="5">
+          <div class="gallery ">
+            <div class="gallery-container " data-aos="fade-up">
+              <img class="gallery-item gallery-item-1" src="img/gallery/S3.png" data-index="1">
+              <img class="gallery-item gallery-item-2" src="img/gallery/S2.png" data-index="2">
+              <img class="gallery-item gallery-item-3" src="img/gallery/S1.png" data-index="3">
+              <img class="gallery-item gallery-item-4" src="img/gallery/S4.png" data-index="4">
+              <img class="gallery-item gallery-item-5" src="img/gallery/S2.png" data-index="5">
             </div>
             <div class="gallery-controls"></div>
           </div>
         </div>
         <div class="col-md-5  col-12">
-          <div class='parent '>
-            <div class='slider'>
+          <div class="parent " data-aos="fade-up">
+            <div class="slider">
               <button type="button" id='right' class='right' name="button">
 
                 <svg version="1.1" id="Capa_1" width='40px' height='40px ' xmlns="http://www.w3.org/2000/svg"
@@ -565,27 +599,27 @@
       </div>
       <!--! slider2 start -->
       <div class="card-slider1    ">
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade">
           <div class="card  w-100 ">
             <img class="" src="img/Advertise/ad1.jpg" id="" alt="">
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade">
           <div class="card  w-100 ">
             <img class="  " src="img/Advertise/ad2.jpg" id="" alt="">
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade">
           <div class="card  w-100 ">
             <img class="  " src="img/Advertise/ad3.jpg" id="" alt="">
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade">
           <div class="card  w-100 ">
             <img class="  " src="img/Advertise/ad1.jpg" id="" alt="">
           </div>
         </div>
-        <div class="col-lg-12  mt-5 ">
+        <div class="col-lg-12  mt-5 " data-aos="fade">
           <div class="card  w-100 ">
             <img class="  " src="img/Advertise/ad2.jpg" id="" alt="">
           </div>
@@ -701,7 +735,7 @@
                 <div class="input-container">
 
                   <input class="input-field" type="text" name="usrnm" style="border-radius: 10px 0px 0px 10px;">
-                  <i class="fa fa-angle-right fa-2x icon" style="border-radius: 0px 10px 10px 0px;"></i>
+                  <i class="fa fa-angle-right fa-2x text-white icon" style="border-radius: 0px 10px 10px 0px;"></i>
                 </div>
               </a>
             </li>
@@ -753,6 +787,39 @@
   <!-- ! for slider 4 start -->
   <script src="js/slider4.js"></script>
   <!-- ! for slider 4 end -->
+
+  <!--! data oas start -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+    AOS.refresh();
+  </script>
+  <!--! data oas end -->
+
+
 </body>
 
 </html>

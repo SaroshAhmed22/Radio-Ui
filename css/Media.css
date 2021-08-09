@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+ 
+.logo-div{
+  
+   background-color: transparent;
+ }
+
+ .slideshow {
+   height: auto;     
+ }
+
+ .heading-setting{
+     margin-top: -38%;
+ }
+
+ .main-heading{
+    font-size: 25px;
+
+}
+
+.main-heading2{
+    font-size: 15px;
+}
+
+
+/* ! top btns start */
+.the-btns{
+    background-color: rgb(211,211,211);
+    margin-top: 0;
+    padding-top: 25px;
+
+}
+
+.all-btns h2{
+    font-size: 20px;
+    color: white;
+}
+
+.top-bt1 {
+    border-radius:21px 21px 21px 21px;
+}
+
+.top-bt2 {
+    border-radius:21px 21px 21px 21px;
+    margin-top: 20px;
+}
+
+
+.top-bt1 img , .top-bt2 img{
+    width: auto;
+    height: 60px;
+}
+
+
+}

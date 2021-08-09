@@ -1,3 +1,67 @@
+.main-setting{
+    margin-top: -10%;
+}
+
+
+/* stroke */
+nav ul li .nav-items,
+nav ul li .nav-items:after,
+nav ul li .nav-items:before {
+  transition: all .5s;
+}
+
+.navbar ul li .nav-items
+ {
+  position: relative;
+}
+.navbar ul li .nav-items:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.navbar ul li .nav-items:hover:after {
+  width: 100%;
+}
+
+.navitem1{
+    border-bottom: 1px solid #aaa ;
+}
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif ;
+}
+.main-heading{
+    font-size: 50px;
+
+}
+
+.main-heading2{
+    font-size: 30px;
+}
+.navbar ul li a{
+    /* font-size: 14px; */
+    font-weight:400 !important;
+    padding-left: 15px !important;
+}
+/* .navbar ul li a:hover{
+    z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+} */
+
+
 /* ! top btns start */
 .the-btns{
     background-color: rgb(211,211,211);
@@ -11,30 +75,34 @@
     
 }
 .top-bt1{
-    background: linear-gradient(to right, #ed213a, #93291e);
+    background: linear-gradient(
+45deg
+, #eb2227, #be202e);
     padding-top: 26px;
     padding-bottom: 26px;
     border-radius:21px 0 0 21px;
 }
 
   .top-bt1 img{
-        width: 150px;
-        height: 100px;
+        width: auto;
+        height: 120px;
   }
   .btn-heading-div{
     padding-left: 39px;
   }
 
   .top-bt2{
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
     padding-top: 26px;
     padding-bottom: 26px;
     border-radius:0px 21px 21px 0px;
 }
 
 .top-bt2 img{
-    width: 150px;
-    height: 100px;
+    width: auto;
+    height: 120px;
 }
 
 /* ! top btns end */
@@ -56,7 +124,9 @@
 }
 
 .navbar{
-    background-color: rgb(40, 121,190) !important;
+    background: linear-gradient(
+45deg
+, #26a9e0, #2b388f);
 }
 
 .navbar a{
@@ -95,7 +165,7 @@ padding:10px 20px;
 .square{
     position: absolute;
     border: 5px solid rgb(254, 206, 82);
-    width: 250px;
+    width: 271px;
     height: 210px;
     margin-top: -13px;
     margin-left: -15px;
@@ -113,13 +183,17 @@ padding:10px 20px;
 }
 .se1{
     width: 155px;
-    background: linear-gradient(to right, #ed213a, #93291e);
+    background: linear-gradient(
+45deg
+, #eb2227, #be202e);
     height: 4px;
 }
 
 .se2{
     width: 160px;
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    background: linear-gradient(
+45deg
+, #26a9e0, #2b388f);
     height: 4px;
 
 }
@@ -162,7 +236,9 @@ padding:10px 20px;
 }
 
 .program-2{
-    background: linear-gradient(to left, #6dd5ed, #2193b0);
+    background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
 }
  
 
@@ -184,7 +260,9 @@ padding:10px 20px;
 }
 
 .program-3{
-    background: linear-gradient(to right, #ed213a, #93291e);
+    background: linear-gradient(
+45deg
+, #eb2227, #be202e);
 }
 
 .program-4{
@@ -226,7 +304,9 @@ padding:10px 20px;
 
 
 .page-footer{
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); ;
+    background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
 
 }
 .input-container {
@@ -238,8 +318,8 @@ padding:10px 20px;
   
   .icon {
     padding: 10px;
-    background: dodgerblue;
-    color: white;
+   background-color: #eb2227;
+    color: white ;
     min-width: 50px;
     text-align: center;
   }
@@ -265,7 +345,9 @@ padding:10px 20px;
     border-radius: 0px 0 76px 76px;
  }
  .footer-copyright{
-    background: linear-gradient(to right, #ed213a, #93291e);
+    background: linear-gradient(
+45deg
+, #eb2227, #be202e);
     font-size: 18px;
     font-weight: lighter;
 
@@ -292,11 +374,24 @@ padding:10px 20px;
     width: 283px;
     height: 167px;
 }
-.page-footer .container{
-    border-top: 1px  solid white !important;
-    border-left: 1px  solid white !important;
-}
+
 /* ! footer end */
+
+/*! hovers start*/
+.card:hover {
+    box-shadow:0 10px 10px 0px white;
+    transform: translate(0px, -10px);
+    transition: all ease-in-out 300ms;
+  }
+
+  /* .card {
+    display: block;
+    top: 0px;
+    position: relative;
+    
+  } */
+
+/*! hovers end*/
 
 
 
