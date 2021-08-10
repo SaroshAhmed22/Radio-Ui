@@ -1,3 +1,48 @@
+.platform-head{
+    font-size: 33px;
+    margin-top: 50px !important;
+
+}
+.se3{
+    width: 155px;
+    background: linear-gradient(
+45deg
+, #ffbf00, #ffee00);
+    height: 4px;
+}
+
+.se4{
+    width: 160px;
+    background: linear-gradient(
+45deg
+, #26a9e0, #2b388f);
+    height: 4px;
+
+}
+
+
+
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.f-400{
+    font-weight: 400;
+}
+.card{
+
+
+
+}
+.card-img-top{
+    width: 100% !important;
+    height: auto !important;
+}
+
 .main-setting{
     margin-top: -10%;
 }
@@ -64,7 +109,8 @@ body{
 
 /* ! top btns start */
 .the-btns{
-    background-color: rgb(211,211,211);
+    background-color:#e8e8e8 !important;
+   
     margin-top: -5%;
 
 }
@@ -154,7 +200,7 @@ padding:10px 20px;
 
 /* ! studio start  */
 .studio{
-    background-color: rgb(211,211,211);
+    background-color:#e8e8e8;
     /* height:  fit-content !important; */
     padding-bottom: 100px;
     padding-top: 42px;
@@ -165,9 +211,9 @@ padding:10px 20px;
 .square{
     position: absolute;
     border: 5px solid rgb(254, 206, 82);
-    width: 271px;
+    width: 267px;
     height: 210px;
-    margin-top: -13px;
+    margin-top: -19px;
     margin-left: -15px;
 }
 
@@ -208,7 +254,7 @@ padding:10px 20px;
 
 /* ! program start */
 .program{
-    background-color: rgb(175, 175 , 175);
+    background-color: #dddddd;
     padding-bottom: 120px;
  }
  .list-dot{
@@ -219,8 +265,7 @@ padding:10px 20px;
  }
 
  .list-para1{
-     color: black !important;
-     font-weight: 100 !important;
+     color: #000 !important;
  }
 
  .list-para2 , .list-para3{
@@ -228,7 +273,7 @@ padding:10px 20px;
  }
 
  .list-paras{
-     margin-left: 36px;
+     margin-left: 36px; 
  }
 
 .program-1{
@@ -286,11 +331,13 @@ padding:10px 20px;
 
 /* ! advertise start */
 .advertise{
-    background-color: rgb(211,211,211);
+    background-color: #dddddd;
 
 }
 .card-slider1 .card img{
     border: 4px solid rgb(254, 206, 82);
+    width: 100%;
+    height: auto;
 
 }  
 
@@ -328,6 +375,7 @@ padding:10px 20px;
     width: 100%;
     padding: 10px;
     outline: none !important;
+    border: 1px solid white;
   }
   
   .input-field:focus {
@@ -341,14 +389,14 @@ padding:10px 20px;
   .footer-d1{
       /* width: 100px; */
       height: 300px;
-    background-color: rgb(211,211,211);
+    background-color: #dddddd;
     border-radius: 0px 0 76px 76px;
  }
  .footer-copyright{
     background: linear-gradient(
 45deg
 , #eb2227, #be202e);
-    font-size: 18px;
+    font-size: 13px;
     font-weight: lighter;
 
  }
@@ -366,7 +414,7 @@ padding:10px 20px;
     margin-bottom: 46px;
 }
 .page-footer ul li a {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .page-footer img{

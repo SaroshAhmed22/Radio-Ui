@@ -1,5 +1,7 @@
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
+
+// const prev = a;
 const galleryControls = ['Prev', 'Next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
 
