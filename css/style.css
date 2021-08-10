@@ -3,6 +3,10 @@
     margin-top: 50px !important;
 
 }
+nav a{
+    font-size: 14px;
+}
+
 .se3{
     width: 155px;
     background: linear-gradient(
