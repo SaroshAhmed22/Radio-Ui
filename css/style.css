@@ -1,3 +1,8 @@
+
+.card-slider{
+    height: 100% !important;
+}
+
 .platform-head{
     font-size: 33px;
     margin-top: 50px !important;
@@ -37,9 +42,8 @@ nav a{
 .f-400{
     font-weight: 400;
 }
-.card{
-
-
+.card{ 
+    height:auto !important;
 
 }
 .card-img-top{
