@@ -111,7 +111,7 @@
 @media screen and (max-width: 1025px) {
   .square{
       
-       width: 217px;
+       width: 100% !important;
      }
 
 
