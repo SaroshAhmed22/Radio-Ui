@@ -449,6 +449,53 @@ padding:10px 20px;
 
 /*! hovers end*/
 
+/* ! playing start */
+header img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    filter: brightness(0.4);
+  }
+  
+  
+  .my-over-2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .my-over-2 h1{
+      font-size: 40px;
+  }
+
+  .now-playing{
+      background-color: #dddddd;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+.now-playing-head-div{
+    background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
+        height: 400px;
+}
+ 
+
+.now-playing-head-content{
+    height: 90% !important;
+    width: 90%;
+    border: 7px solid white !important;
+    flex-direction: column;
+}
+
+
+/* ! playing end */
+
+
 
 
 
