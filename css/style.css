@@ -532,14 +532,61 @@ header img {
 
 }
 
-td{
-    font-size: 9px !important;
-}
+
 
 /* ! table end */
 
 
 /* ! playing end */
+
+/*! schedule start */
+.onair-div{
+    background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
+}
+
+.now-on-air{
+    background-color: #dddddd;
+}
+
+
+.onair-content{
+    height: 90% !important;
+    width: 90%;
+    border: 7px solid white !important;
+    flex-direction: column;
+}
+.schedule-table{
+    padding-top: 100px;
+}
+.schedule-advertise{
+    padding-top: 40px;
+}
+.schedule-table{
+    background-color: #dddddd;
+}
+/*! schedule end */
+
+/* ! engr start */
+.engr-section img {
+    width: 100%;
+    height: auto !important;
+}
+
+.engr-img-square{
+    position: absolute;
+    border: 5px solid rgb(254, 206, 82);
+    width: 95%;
+    height: 70%;
+    margin-top: -19px;
+    margin-left: -20px;
+}
+
+
+
+
+/* ! engr end */
 
 
 

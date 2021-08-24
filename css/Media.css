@@ -6,6 +6,25 @@
     /* ! mobile */
 @media screen and (max-width: 600px) {
     /* !playing start */
+
+    .now-playing-heading{
+        font-size: 19px;
+    }
+    .npheadings{
+        font-size: 19px;
+        text-align: left;
+    }
+    .se3-play {
+        width: 84px;
+    }
+    .se4-play {
+        width: 99px;
+    }
+    
+
+    .table-section td{
+    }
+    
     .now-playing-head-div{
         height: 190px;
     }
