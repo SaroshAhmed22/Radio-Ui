@@ -476,6 +476,36 @@ header img {
       padding-top: 50px;
       padding-bottom: 50px;
   }
+  
+.se3-play{
+    width: 155px;
+    background: white;
+    height: 4px;
+}
+
+.se4-play{
+    width: 160px;
+    background: linear-gradient(
+45deg
+, #26a9e0, #2b388f);
+    height: 4px;
+
+}
+
+.se1-play{
+    width: 155px;
+    /* background: grey; */
+    border-bottom: 1px solid gray;
+}
+
+.se2-play{
+    width: 160px;
+    background: linear-gradient(
+45deg
+, #26a9e0, #2b388f);
+    height: 4px;
+
+}
 
 .now-playing-head-div{
     background: linear-gradient(
@@ -483,7 +513,10 @@ header img {
         , #26a9e0, #2b388f);
         height: 400px;
 }
- 
+ .now-playing-r2{
+    background-color: rgb(254, 206, 82);
+
+ }
 
 .now-playing-head-content{
     height: 90% !important;
@@ -491,6 +524,19 @@ header img {
     border: 7px solid white !important;
     flex-direction: column;
 }
+
+
+/* ! table start */
+.table-section{
+    background-color: #dddddd;
+
+}
+
+td{
+    font-size: 9px !important;
+}
+
+/* ! table end */
 
 
 /* ! playing end */

@@ -5,6 +5,15 @@
 
     /* ! mobile */
 @media screen and (max-width: 600px) {
+    /* !playing start */
+    .now-playing-head-div{
+        height: 190px;
+    }
+
+    .fa-headphones-alt{
+        font-size: 50px !important;
+    }
+    /* !playing start */
    .last-lists{
        text-align: left;
    }
