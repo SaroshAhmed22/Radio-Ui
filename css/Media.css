@@ -1,12 +1,72 @@
 
-
-
-
-
-    /* ! mobile */
+   /* ! mobile */
 @media screen and (max-width: 600px) {
+.icon-contact{
+    font-size: 22px !important;
+}
+.con-icon-p{
+    font-size: 12px;
+}
+.contact-haeding-res{
+    margin-bottom: 15px !important;
+}
+
+   /* ! guest start */
+   .guest-main-head{
+       font-size: 14px !important;
+   }
+   .guest-form-headings{
+       font-size: 15px;
+   }
+   .guest-form-btns{
+       font-size: 8px;
+       /* font-weight: bold; */
+   }
+   /* ! guest end */
+   /* ! about start */
+   .about-para{
+       font-size: 14px;
+   }
+   .about-r2{
+       margin-top:50px;
+   }
+   /* ! about end */
+   
+    /*! engr start */
+    .studio-eng-main-head{
+        font-size: 17px !important;
+    }
+    /*! engr end */
+  
+  /* ! schedule start */
+  .program-sch-main-head{
+      font-size: 18px !important;
+  }
+  .onair-content h2{
+      font-size: 17px !important;
+
+  }
+  /* ! schedule end */
+  
     /* !playing start */
 
+    .my-over-2 {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+      }
+    header img {
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+        filter: brightness(0.4);
+      }
+    .my-over-2 h1{
+        font-size: 22px;
+    }
     .now-playing-heading{
         font-size: 19px;
     }

@@ -460,7 +460,7 @@ header img {
   
   .my-over-2 {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -569,9 +569,13 @@ header img {
 /*! schedule end */
 
 /* ! engr start */
+.engr-section{
+    padding-top:60px;
+    padding-bottom:100px;
+}
 .engr-section img {
-    width: 100%;
-    height: auto !important;
+    width: 284;
+    height: 245 !important;
 }
 
 .engr-img-square{
@@ -582,14 +586,43 @@ header img {
     margin-top: -19px;
     margin-left: -20px;
 }
-
-
-
-
 /* ! engr end */
 
+/* ! Guset form startr */
+.guest-form-section{
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+.guest-txt-area > textarea:focus{
+    border-color:white !important;
+    font-size: 18px;
+    color: black !important;
+}
+/* ! Guset form startr */
 
+/* ! about start */
+.about-para{
+    font-size: 18px;
+    font-weight: normal;
+}
 
+.about-para b{
+    font-weight: 500;
+}
+.about-section{
+    background-color: #dddddd;
+    padding: 100px 0px !important;
+}
 
+/* ! about end */
+
+/* ! gospel web start */
+.gospel-web-section{
+    background-color: #dddddd;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+/* ! gospel web end */
 
 
