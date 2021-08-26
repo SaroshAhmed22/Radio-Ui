@@ -638,5 +638,140 @@ header img {
 }
 
 /* ! gospel web end */
+.gospel-contact-form{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+/*! Playing table start  */
+.table-section table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    /* max-width: 800px; */
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+ .table-section table * {
+    position: relative;
+  }
+  .table-section table td, .table-section table th {
+    padding-left: 8px;
+  }
+  .table-section table thead tr {
+    height: 60px;
+    /* background: #FFED86; */
+    font-size: 16px;
+  }
+
+  .table-section table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #E3F1D5;
+  }
+
+
+  .table-section table tbody tr:last-child {
+    border: 0;
+  }
+
+
+  .table-section table td, table th {
+    text-align: left;
+  }
+
+  .table-section table td.l, table th.l {
+    text-align: right;
+  }
+  
+  
+  .table-section table td.c, table th.c {
+    text-align: center;
+  }
+
+
+  .table-section table td.r, .table-section table th.r {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 35.5em) {
+   .table-section table {
+      display: block;
+
+    }
+    
+
+    .playing-tb-mg{
+        margin-top: 50px;
+       
+    }
+   .table-section table > *, .table-section table tr, .table-section table td, .table-section table th {
+      display: block;
+    }
+    .table-section   table thead {
+      display: none;
+    }
+    .table-section  table tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+
+    .table-section table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+
+    .table-section table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-section table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+
+    .table-section table tbody tr td:nth-child(1):before {
+      content: "Title";
+      margin-top: 16px;
+      
+    }
+    .table-section table tbody tr td:nth-child(2):before {
+      content: "Artist";
+      margin-top: 16px;
+
+    }
+    .table-section table tbody tr td:nth-child(3):before {
+      content: "Album";
+      margin-top: 16px;
+
+    }
+    .table-section table tbody tr td:nth-child(4):before {
+      content: "Hours/Date";
+      margin-top: 16px;
+
+    }
+    .table-section table tbody tr td:nth-child(5):before {
+      content: "purshase";
+      margin-top: 16px;
+
+    }
+
+
+  }
+
+  table {
+    border-spacing: 15px;
+  }
+
+  
+
+  
+/*! Playing table end */
 
 

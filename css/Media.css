@@ -2,6 +2,19 @@
    /* ! mobile */
 @media screen and (max-width: 600px) {
 
+    .acds-cards .container{
+        padding:0px;
+    }
+    .about-para{
+        text-align: justify !important;
+    }
+    .about-para-2{
+        margin-left: 0px !important;
+    }
+    .gospel-web-section{
+        padding-top: 40px;
+    }
+
     .accordion .fa-headphones-alt{
         font-size: 25px !important;
 
@@ -60,6 +73,12 @@
   /* ! schedule end */
   
     /* !playing start */
+.adv-content{
+    padding-bottom: 22px;
+}
+.now-playing {
+    padding-bottom: 19px;
+}
 
     .my-over-2 {
         position: absolute;
