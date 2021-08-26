@@ -540,6 +540,17 @@ header img {
 /* ! playing end */
 
 /*! schedule start */
+/* .slick-next, .slick-prev{
+    display: none !important;
+} */
+
+.slick-next:before, .slick-prev:before {
+   
+    color: none !important;
+}
+
+
+
 .onair-div{
     background: linear-gradient(
         45deg

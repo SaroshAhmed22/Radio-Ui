@@ -5,9 +5,9 @@ $(document).ready(function ($) {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
         responsive: [{
             breakpoint: 600,
             settings: {
@@ -44,9 +44,9 @@ $(document).ready(function ($) {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
-        arrows: true,
+        arrows: false,
         responsive: [{
             breakpoint: 600,
             settings: {
