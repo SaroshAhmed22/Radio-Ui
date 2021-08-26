@@ -1,6 +1,17 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+
+    .accordion .fa-headphones-alt{
+        font-size: 25px !important;
+
+    }
+    .my-accords{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
 .icon-contact{
     font-size: 22px !important;
 }
