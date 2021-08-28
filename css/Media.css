@@ -4,6 +4,9 @@
 .ct-mg{
     margin-left: 10px;
 }
+.audio-controls{
+    width: 100px !important;
+}
 
     .alb-ctg-res{
     display: flex;
