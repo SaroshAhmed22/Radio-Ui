@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="css/HeadSlider.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/Media.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 </head>
 
 <body>
@@ -128,9 +129,55 @@
             <span aria-hidden="true" class="text-white cross-icon">&times;</span>
           </button>
         </div>
+
         <div class="modal-body ">
           <div class=" text-center ">
-            <i class="mt-5 far fa-play-circle fa-7x"></i>
+            <div class="" id="containera">
+              <div class="cover"><img id="artwork"
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122478/12-Creative-Poster-Design-Tutorials-Using-Illustrator.jpg"
+                  width="260" height="260" alt="" /></div>
+              <div class="waves">
+                <div class="baseline"></div>
+                <div class="piano"></div>
+                <div class="riffs"></div>
+                <div class="kicks"></div>
+              </div>
+              <div class="disc-placeholder">
+                <!-- <button class="play-button" id="play"><i class="fa fa-play"></i></button> -->
+                <div class="spinner-wrap  play-button " onclick="play_pause()">
+                  <!-- <div class="spinner-outer"></div> -->
+                  <!-- <div class="spinner-center"></div> -->
+                  <!-- <div class="play-sprite "></div> -->
+                  <i class="fa fa-play fa-2x play_pause" aria-hidden="true" id="play"></i>
+                </div>
+                <audio loop="loop" data-bpm="86">
+                  <source src="https://devtips.github.io/Animated-Music-Player/assets/songs/jamsauce.mp3"
+                    type="audio/mp3">
+                  </source>
+                  <source src="https://devtips.github.io/Animated-Music-Player/assets/songs/jamsauce.ogg"
+                    type="audio/ogg">
+                  </source>
+                </audio>
+              </div>
+            </div>
+
+
+
+            <!-- <div class="player ">
+              <div class="button-items d-flex justify-content-center align-items-center">
+                <audio id="music" preload="auto" loop="false">
+                  <source src="https://dl.dropbox.com/s/oswkgcw749xc8xs/The-Noisy-Freaks.mp3?dl=1" type="audio/mp3">
+                </audio>
+                <div id="slider">
+                  <div id="elapsed"></div>
+                </div>
+                <div>
+                  <i class="fa fa-play-circle fa-5x play_btn ml-5" id="play" aria-hidden="true"></i>
+                  <i class="fa fa-pause-circle  streamer fa-5x pause_btn mr-5" id="pause" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div> -->
+            <!-- <i class="mt-5 far fa-play-circle fa-7x"></i> -->
             <h4 class="text-center mt-5 font-weight-normal">GARY WYATT & NDCC</h4>
             <h3 class="text-center mt-3 font-weight-normal">CURRENT TRACK</h3>
             <h4 class="text-center mt-3 font-weight-normal">GARY WYATT & NDCC</h4>
@@ -872,7 +919,53 @@
     });
     AOS.refresh();
   </script>
+
+  <script src="./js/play_pause.js"></script>
   <!--! data oas end -->
+
+  <script>
+
+    var music = document.getElementById("music");
+    var playButton = document.getElementById("play");
+    var pauseButton = document.getElementById("pause");
+    var playhead = document.getElementById("elapsed");
+    var timeline = document.getElementById("slider");
+    var timer = document.getElementById("timer");
+    var duration;
+    pauseButton.style.visibility = "hidden";
+
+    var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
+    music.addEventListener("timeupdate", timeUpdate, false);
+
+    function timeUpdate() {
+      var playPercent = timelineWidth * (music.currentTime / duration);
+      playhead.style.width = playPercent + "px";
+
+      var secondsIn = Math.floor(((music.currentTime / duration) / 3.5) * 100);
+      if (secondsIn <= 9) {
+        timer.innerHTML = "0:0" + secondsIn;
+      } else {
+        timer.innerHTML = "0:" + secondsIn;
+      }
+    }
+
+    playButton.onclick = function () {
+      music.play();
+      playButton.style.visibility = "hidden";
+      pause.style.visibility = "visible";
+    }
+
+    pauseButton.onclick = function () {
+      music.pause();
+      playButton.style.visibility = "visible";
+      pause.style.visibility = "hidden";
+    }
+
+    music.addEventListener("canplaythrough", function () {
+      duration = music.duration;
+    }, false);
+
+  </script>
 
 
 </body>
