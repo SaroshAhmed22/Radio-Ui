@@ -1182,6 +1182,10 @@ header img {
 
 
 
+
+
+
+
 /* ! table end */
 
 
@@ -1290,13 +1294,12 @@ header img {
 }
 
 /*! Playing table start  */
-.table-section table {
+/* .table-section table {
     border-spacing: 1;
     border-collapse: collapse;
     background: white;
     border-radius: 6px;
     overflow: hidden;
-    /* max-width: 800px; */
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -1310,7 +1313,6 @@ header img {
   }
   .table-section table thead tr {
     height: 60px;
-    /* background: #FFED86; */
     font-size: 16px;
   }
 
@@ -1325,9 +1327,7 @@ header img {
   }
 
 
-  .table-section table td, table th {
-    text-align: left;
-  }
+  
 
   .table-section table td.l, table th.l {
     text-align: right;
@@ -1414,8 +1414,92 @@ header img {
   table {
     border-spacing: 15px;
   }
+ */
+/*! imp for schedule table  */
+  .table-section table td, table th {
+    text-align: left;
+  }
+/*! imp for schedule table  */
+.primary td{
+  background-color: white;
+}
 
+
+.primary {
+  overflow: auto;
+  scroll-snap-type: both mandatory;
   
+}
+@media (min-width: 40em) {
+.table_main {
+    display: flex;
+  }
+  
+  .primary {
+    order: 2;
+  }
+}
+.primary table {
+  border-collapse: collapse;
+  border: 0;
+}
+.primary  th , .primary td {
+  border: 1px solid #aaa;
+  background-clip: padding-box;
+  scroll-snap-align: start;
+}
+
+
+.primary  tbody tr:last-child th,
+.primary  tbody tr:last-child td {
+  border-bottom: 1px solid gainsboro;
+}
+
+.primary  thead {
+  z-index: 1000;
+  position: relative;
+}
+
+.primary th , td {
+  padding: 0.6rem;
+  min-width: 6rem;
+  text-align: left;
+  margin: 0;
+}
+
+.primary thead th {
+  position: sticky;
+  top: 0;
+  border-top: 0;
+  background-clip: padding-box;
+}
+
+.primary  thead th.pin {
+  left: 0;
+  z-index: 1001;
+  border-left: 0;
+}
+
+
+.primary  tbody th {
+  background-clip: padding-box;
+  border-left: 0;
+}
+
+.primary  tbody {
+  z-index: 10;
+  position: relative;
+}
+
+.primary  tbody th {
+  position: sticky;
+  left: 0;
+}
+
+.primary thead th , tbody th {
+  background-color: #f8f8f8;
+}
+
 /*! Playing table end */
 
 /*  ! dist start */

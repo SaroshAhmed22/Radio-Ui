@@ -16,6 +16,10 @@
     .audio-player .player-controls p {
         font-size: 11px;
         margin-top: 5px;
+        font-weight: 400;
+    }
+    .fixed{
+        top: 32%;
     }
 
     .scrubber small{
