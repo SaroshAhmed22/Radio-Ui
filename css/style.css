@@ -9,19 +9,19 @@
   margin: 0rem 0 0rem 0;
   position: fixed;
   bottom: 0;
-  z-index: 1
-  ;
+  z-index: 999 ;
 }
 .audio-player .album-image {
-  min-height: 100px;
+  height: 100px;
   width: 110px;
   background-size: cover;
 }
 .audio-player .player-controls {
   align-items: center;
   justify-content: center;
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
   flex: 3;
+  margin-top: 10px;
 }
 .audio-player .player-controls progress {
   width: 90%;
@@ -48,9 +48,10 @@
 .audio-player #play-btn {
   background-image: url("https://cdn.fastly.picmonkey.com/content4/previews/arrows_2/arrows_2_44_550.png");
   background-size: cover;
-  width: 75px;
-  height: 75px;
-  margin: 2rem 0 2rem 2rem;
+  width: 60px;
+  height: 60px;
+  margin-top: 21px;
+  /* margin: 0rem 0 2rem 2rem; */
 }
 .audio-player #play-btn.pause {
   background-image: url("https://img.icons8.com/ios/452/circled-pause.png");

@@ -1,6 +1,28 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+
+
+    .audio-player .album-image {
+        height: 84px;
+        width: 84px;
+    }
+
+
+    .audio-player #play-btn {
+        margin-top: 10px;
+    }
+
+    .audio-player .player-controls p {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .scrubber small{
+        font-size: 13px;
+    }
+
+
 .ct-mg{
     margin-left: 10px;
 }
