@@ -1,6 +1,9 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+    .play-button {
+        left: 48%;
+    }
 
     .cover {
 left: 11%;
