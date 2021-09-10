@@ -587,12 +587,9 @@ a{
 .fixed
 {
     position: fixed;
-    top:50%;
+    top:40%;
     right: -10px;
-    /* width:50px; */
     height:200px;
-    /* z-index:999; */
-    /* width: 100px !important; */
     z-index: 1;
 }
 .button 
@@ -1447,6 +1444,11 @@ header img {
   border: 1px solid #aaa;
   background-clip: padding-box;
   scroll-snap-align: start;
+background-color:#dddddd !important;
+}
+
+
+.primary tr td th {
 }
 
 
