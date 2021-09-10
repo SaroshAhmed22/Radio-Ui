@@ -2,6 +2,10 @@
    /* ! mobile */
 @media screen and (max-width: 600px) {
 
+    .cover {
+left: 13%;
+
+    }
 
     .audio-player .album-image {
         height: 84px;
