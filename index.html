@@ -40,9 +40,12 @@
 </head>
 
 <body>
+
+
+
   <!-- ! Header start  -->
   <!--Navbar-->
-  <nav class="navbar p-0 navbar-expand-lg navbar-light white ">
+  <nav class="navbar fixed-top p-0 navbar-expand-lg navbar-light white ">
     <div class="container  ">
       <div class="logo-div ">
         <a class="navbar-brand " href="#">
@@ -91,7 +94,9 @@
       <!-- Collapsible content -->
     </div>
   </nav>
-  <!-- ! btns  fixed start -->
+
+
+  <!-- ! btns updated  fixed start -->
   <div class="fixed ">
     <a href="catlog.html" class="button ">
       <div class="buttonDiv bg-b-blue noHover btn book-now">
@@ -109,7 +114,6 @@
       <div class=" buttonDiv bg-b-orange noHover  button btn book-now">
         <div class="d-flex flex-column justify-content-center align-items-center ">
           <i class="fas fa-play side-bt-text side-bt-text2"></i>
-
           <p class="side-bt-text ">Listen</p>
         </div>
       </div>
@@ -129,13 +133,10 @@
             <span aria-hidden="true" class="text-white cross-icon">&times;</span>
           </button>
         </div>
-
         <div class="modal-body ">
           <div class=" text-center ">
             <div class="" id="containera">
-              <div class="cover"><img id="artwork"
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/122478/12-Creative-Poster-Design-Tutorials-Using-Illustrator.jpg"
-                  width="260" height="260" alt="" /></div>
+              <div class="cover"><img id="artwork" src="img/play_pauseImg.jpg" width="260" height="260" alt="" /></div>
               <div class="waves">
                 <div class="baseline"></div>
                 <div class="piano"></div>
@@ -160,9 +161,6 @@
                 </audio>
               </div>
             </div>
-
-
-
             <!-- <div class="player ">
               <div class="button-items d-flex justify-content-center align-items-center">
                 <audio id="music" preload="auto" loop="false">
@@ -184,7 +182,8 @@
           </div>
           <div class="text-center">
             <button type="button" class="btn btn-secondary text-center btn-rounded mt-4 mod-bt"
-              style="border-radius: 20px !important;" data-dismiss="modal ">Partner With Us</button>
+              style="border-radius: 20px !important;" data-toggle="modal" data-target="#demo4">Partner With
+              Us</button>
           </div>
         </div>
         <div class="modal-footer">
@@ -193,12 +192,69 @@
       </div>
     </div>
   </div>
-  <!-- ! btns  fixed end -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="demo4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+    style="position
+   :absolute ; top: 60%;">
+    <div class="modal-dialog opacity-animate4">
+      <div class="modal-content">
+
+        <div class="modal-body ">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <br>
+          <div class="partners text-center">
+            <div class="partner1 d-flex ">
+              <img src="img/partner/partner1.png" alt="">
+              <div class=" w-100 d-flex justify-content-center align-items-center">
+                <h3 class="  text-white">Paypal</h3>
+              </div>
+            </div>
+
+            <!-- !2 -->
+            <div class="partner1 d-flex mt-3">
+              <img src="img/partner/partner2.png" alt="">
+              <div class=" w-100 d-flex justify-content-center align-items-center">
+                <h3 class="  text-white">Zelle</h3>
+              </div>
+            </div>
+
+            <!-- !3 -->
+            <div class="partner1 d-flex mt-3">
+              <img src="img/partner/partner3.png" alt="">
+              <div class=" w-100 d-flex justify-content-center align-items-center">
+                <h3 class="  text-white">Cash App</h3>
+              </div>
+            </div>
+
+            <!-- !4 -->
+            <div class="partner1 d-flex mt-3">
+              <img src="img/partner/partner4.png" alt="">
+              <div class=" w-100 d-flex justify-content-center align-items-center">
+                <h3 class="  text-white">Venmo</h3>
+              </div>
+            </div>
+
+            <!-- !5-->
+            <div class="partner1 d-flex mt-3">
+              <img src="img/partner/partner5.png" alt="">
+              <div class=" w-100 d-flex justify-content-center align-items-center">
+                <h3 class="  text-white">Cheque or Money Order</h3>
+              </div>
+            </div>
 
 
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ! btns updated  fixed end -->
   <!--/.Navbar-->
   <!-- ! Header end  -->
-
   <!-- ! slider start -->
   <!-- partial:index.partial.html -->
   <div id="wrapper">
@@ -367,7 +423,7 @@
               <div>
                 <img src="img/header-btns/bt2.png" alt="" class="img-fluid">
               </div>
-              <div class=" d-flex justify-content-center align-items-center btn-heading-div">
+              <div class=" d-flex justify-content-center align-items-center btn-heading-div ">
                 <h2 class="" style="">LISTEN</h2>
               </div>
             </div>
@@ -855,12 +911,40 @@
     <div class="footer-copyright text-center py-4 text-white">Copyrights © 2021 by Hallelujah Gospel.
       All Rights
       Reserved
-
     </div>
     <!-- Copyright -->
-
   </footer>
   <!-- !Footer end -->
+
+
+
+  <!-- partial:index.partial.html -->
+  <div class="audio-player ">
+    <div id="play-btn"></div>
+    <div class="audio-wrapper" id="player-container" href="javascript:;">
+      <audio id="player" ontimeupdate="initProgressBar()">
+        <source src="http://www.lukeduncan.co/oslo.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="player-controls scrubber">
+      <p>Oslo <small>by</small> Holy Esque</p>
+      <span id="seekObjContainer">
+        <progress id="seekObj" value="0" max="1"></progress>
+      </span>
+      <br>
+      <small style="float: left; position: relative; left: 15px;" class="start-time"></small>
+      <small style="float: right; position: relative; right: 20px;" class="end-time"></small>
+
+    </div>
+    <div class="album-image"
+      style="background-image: url('https://artwork-cdn.7static.com/static/img/sleeveart/00/051/614/0005161476_350.jpg')">
+    </div>
+  </div>
+  <!-- partial -->
+
+
+
+
 
   <!-- jQuery -->
   <script type=" text/javascript" src="js/jquery.min.js">

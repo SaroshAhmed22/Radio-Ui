@@ -1,4 +1,80 @@
-	.play-sprite {
+
+.audio-player {
+  background: white;
+  border: 1px solid #dfdfdf;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  margin: 0rem 0 0rem 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 1
+  ;
+}
+.audio-player .album-image {
+  min-height: 100px;
+  width: 110px;
+  background-size: cover;
+}
+.audio-player .player-controls {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  flex: 3;
+}
+.audio-player .player-controls progress {
+  width: 90%;
+}
+.audio-player .player-controls progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  color: blue;
+  height: 5px;
+}
+.audio-player .player-controls progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #dfdfdf;
+  color: blue;
+}
+.audio-player .player-controls progress::-webkit-progress-value {
+  background-color: blue;
+}
+.audio-player .player-controls p {
+  font-size: 1.6rem;
+}
+.audio-player #play-btn {
+  background-image: url("https://cdn.fastly.picmonkey.com/content4/previews/arrows_2/arrows_2_44_550.png");
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin: 2rem 0 2rem 2rem;
+}
+.audio-player #play-btn.pause {
+  background-image: url("https://img.icons8.com/ios/452/circled-pause.png");
+}
+
+/* ! model 2 start  */
+.partner1 {
+  background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
+        border-radius: 20px;
+
+}
+
+.partner1 img{
+  width: 100px;
+
+}
+/* ! model 2 end  */
+
+
+
+
+.play-sprite {
       position: absolute;
       top: 10%;
       left: 10%;
@@ -24,7 +100,182 @@
   background: #383749;
   overflow: hidden;
 } */
+/*  */
 
+/******* Demo 1 *********/
+/* .modal.modal-wide{
+	overflow: hidden;
+}
+
+.modal-wide .modal-body {
+	overflow-y: auto;
+}
+
+@-webkit-keyframes custome-animate {
+	0% {
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		-webkit-transform:  perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		-moz-transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		-ms-transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		opacity: 0;
+	}
+    68% {
+		-webkit-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		-moz-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		-ms-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		opacity: 0.8;                
+    }
+	100% {
+		-webkit-transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		-moz-transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		-ms-transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		opacity: 1;
+	}
+}
+@keyframes custome-animate {
+	0% {
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		-webkit-transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		-moz-transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		-ms-transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		transform: perspective(90%) rotateY(-65deg) rotateX(-45deg) translateZ(-200px);
+		opacity: 0;
+	}
+	68% {
+		-webkit-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		-moz-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		-ms-transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		transform:  rotateY(10deg) rotateX(10deg) translateZ(20px);
+		opacity: 0.8;                
+    }
+    100% {
+		-webkit-transform: rotateY(0deg) rotateX(0deg) translateZ(0px);
+		-moz-transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		-ms-transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		transform:  rotateY(0deg) rotateX(0deg) translateZ(0px);
+		opacity: 1;
+	}
+}
+.custome-animate {
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+	-webkit-animation-name: custome-animate;
+	animation-name: custome-animate;
+}
+
+ */
+
+/********Demo 2*******/
+
+/* .opacity-animate{
+    animation:opt-animation 1s;
+     -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+  
+}
+
+
+
+
+
+@-webkit-keyframes opt-animation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes opt-animation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes opt-animation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes opt-animation {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+} */
+
+/***** Demo 3 *********/
+/* .opacity-animate3{
+    animation:opt-animation3 1s ;
+  -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes opt-animation3 {
+  0%   { opacity: 0; transform: scale(0.75);}
+  100% { opacity: 1; transform: scale(1);}
+}
+@-moz-keyframes opt-animation3 {
+   0%   { opacity: 0; transform: scale(0.75);}
+  100% { opacity: 1; transform: scale(1);}
+}
+@-o-keyframes opt-animation3{
+  0%   { opacity: 0; transform: scale(0.75);}
+  100% { opacity: 1; transform: scale(1);}
+}
+@keyframes opt-animation3 {
+  0%   { opacity: 0; transform: scale(0.75);}
+  100% { opacity: 1; transform: scale(1);}
+}
+ */
+/* .hide-opacity{
+   animation:scaleme 1s;
+}
+
+@-webkit-keyframes scaleme {
+  0% { -webkit-transform: scale(1); opacity: 1; }
+  100% { -webkit-transform: scale(0); opacity: 0;display:none;}
+}   
+ */
+
+
+
+/* .demo4
+ &.fade {
+  .modal-dialog {
+   .translate(0, 0);
+  }
+ }
+}
+/* or */
+/* .demo4.fade .modal-dialog {
+ .translate(0, 0);
+}
+ */ 
+/* .opacity-animate4{
+    animation:opt-animation4 1s;
+  animation-fill-mode: forwards
+}
+
+
+@keyframes opt-animation4 {
+  0% {
+    transform: scale(0) rotate(360deg);
+  }
+  60% {
+    transform: scale(0.8) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+ */
+
+/*  */
 .disc-placeholder {
   float: left;
   position: relative;
