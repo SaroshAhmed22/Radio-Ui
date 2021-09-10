@@ -284,6 +284,9 @@
   height: 320px;
   
 }
+/* .cover{
+  margin-left: 20px;
+} */
 
 
 .play-button {
@@ -415,9 +418,9 @@
   height: 260px;
   border-radius: 50%;
   position: absolute;
-  top: 30px;
-  left: 30px;
-  opacity: 0;
+  top: 5%;
+  left: 15%;
+  opacity: 0.5;
   background: transparent;
   overflow: hidden;
   opacity: 0.5;
