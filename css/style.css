@@ -282,6 +282,7 @@
   position: relative;
   width: 320px;
   height: 320px;
+  
 }
 
 
@@ -290,12 +291,14 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 30%;
-  left: 45%;
+  top: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 100px;
   height:100px;
-  background: gold;
+  background: linear-gradient(
+        45deg
+        , #26a9e0, #2b388f);
   border-radius: 50%;
   border: 0;
   outline: 0;
@@ -306,7 +309,9 @@
   transition: all 0.5s ease-in-out;
 }
 .play-button:hover {
-  background: magenta;
+  background: linear-gradient(
+45deg
+, #eb2227, #be202e);
 }
 .playing .play-button {
   /* background: #292735;
