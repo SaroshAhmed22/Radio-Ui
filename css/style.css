@@ -656,7 +656,7 @@ padding: 0 21px;
 
 }
 nav a{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .se3{
@@ -1218,6 +1218,12 @@ header img {
     background-color: #dddddd;
 }
 
+.schedule-table  th , .schedule-table td {
+  border: 1px solid #aaa;
+}
+
+
+
 
 .onair-content{
     height: 90% !important;
@@ -1235,6 +1241,14 @@ header img {
 .schedule-table{
     background-color: #dddddd;
 }
+
+table.table th, table.table td {
+  padding-top: 1.1rem;
+  padding-bottom: 1rem;
+  background-color: #ddd;
+}
+
+
 /*! schedule end */
 
 /* ! engr start */
@@ -1290,6 +1304,53 @@ header img {
     background-color: #dddddd;
     padding-top: 100px;
     padding-bottom: 30px;
+}
+
+.my-accords .fa-headphones-alt{
+  color: white !important;
+}
+
+.accd1{
+  background-color: black;
+  /* background: linear-gradient( 
+    45deg , #26a9e0, #2b388f) !important; */
+}
+.accd2{
+  background: linear-gradient(
+    45deg
+    , #eb2227, #be202e); 
+}
+.accd3{
+  background-color: rgb(254, 206, 82);
+}
+.accd4{
+  background: linear-gradient( 
+  45deg , #26a9e0, #2b388f) !important;
+}
+.accd5{ 
+  background: linear-gradient(
+  45deg
+  , #eb2227, #be202e);
+ }
+.accd6{
+  background-color: rgb(254, 206, 82);
+}
+.accd7{
+  background: linear-gradient( 
+  45deg , #26a9e0, #2b388f) !important;
+}
+.accd8{
+  background: linear-gradient(
+  45deg
+  , #eb2227, #be202e);
+}
+.accd9{
+  background-color: rgb(254, 206, 82);
+
+}
+.accd10{
+  background: linear-gradient( 
+  45deg , #26a9e0, #2b388f) !important;
 }
 
 /* ! gospel web end */
@@ -1629,3 +1690,13 @@ padding-bottom: 50px;
       padding-bottom: 50px;
   }
 /* ! album end */
+
+
+/* ! kenny andrews start */
+.week-sche{
+  background: linear-gradient(
+    45deg
+    , #26a9e0, #2b388f);
+  
+}
+/* ! kenny andrews end */
