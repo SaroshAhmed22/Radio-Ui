@@ -9,11 +9,11 @@
   margin: 0rem 0 0rem 0;
   position: fixed;
   bottom: 0;
-  z-index: 999 ;
+  z-index: 999;
 }
 .audio-player .album-image {
-  height: 100px;
-  width: 110px;
+  height: 80px;
+  width: 80px;
   background-size: cover;
 }
 .audio-player .player-controls {
@@ -50,7 +50,7 @@
   background-size: cover;
   width: 60px;
   height: 60px;
-  margin-top: 21px;
+  margin-top: 13px;
   /* margin: 0rem 0 2rem 2rem; */
 }
 .audio-player #play-btn.pause {
@@ -656,7 +656,10 @@ padding: 0 21px;
 
 }
 nav a{
-    font-size: 12px;
+    font-size: 12px !important;
+}
+.nav-link{
+  font-size: 11px !important;
 }
 
 .se3{
@@ -1073,7 +1076,7 @@ padding:10px 20px;
     margin-bottom: 46px;
 }
 .page-footer ul li a {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .page-footer img{
@@ -1285,7 +1288,7 @@ table.table th, table.table td {
 
 /* ! about start */
 .about-para{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: normal;
 }
 
@@ -1693,10 +1696,35 @@ padding-bottom: 50px;
 
 
 /* ! kenny andrews start */
-.week-sche{
+
+  .kenny_and_img{
+    width: 350px;
+    height: 350px;
+  }
+
+  .kenny_andr{
+    background-color: #ddd;
+  }
+
+  .kenny_andr_bio{
+    /* border: 12px solid linear-gradient(
+      45deg
+      , #eb2227, #be202e) !important; */
+
+    }
+
+.weekly_sche{
   background: linear-gradient(
-    45deg
-    , #26a9e0, #2b388f);
-  
+        45deg
+        , #26a9e0, #2b388f);
+
 }
+
+  
+.weekly_section{
+  padding-top: 50px;
+  padding-bottom: 0px;
+  background-color: #dddddd;
+}
+
 /* ! kenny andrews end */
