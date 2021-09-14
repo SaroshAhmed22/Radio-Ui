@@ -1728,3 +1728,8 @@ padding-bottom: 50px;
 }
 
 /* ! kenny andrews end */
+
+.slick-next, .slick-prev {
+  color: red !important;
+display: none !important;
+}
