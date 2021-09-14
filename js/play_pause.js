@@ -1,4 +1,12 @@
 
+const play_pause = () => {
+    let play = document.getElementById("play")
+    console.log(play)
+    play.classList.toggle("fa-pause")
+}
+
+
+
 var clientId = '933bc67dd9ff18eab500e8992a6b6a5f',
     webx = $('#containera');
 
@@ -45,11 +53,11 @@ $(document).ready(function () {
     });
 });
 
-const play_pause = () => {
-    let play = document.getElementById("play")
-    console.log(play)
-    play.classList.toggle("fa-pause")
-}
+// const play_pause = () => {
+//     let play = document.getElementById("play")
+//     console.log(play)
+//     play.classList.toggle("fa-pause")
+// }
 
 
 // ! bottom music player
@@ -142,3 +150,8 @@ function initPlayers(num) {
 }
 
 initPlayers(jQuery('#player-container').length);
+
+
+
+
+

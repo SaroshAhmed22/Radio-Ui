@@ -66,7 +66,77 @@ $(document).ready(function ($) {
     });
 });
 
+
+
+
+// ! SLider player
+
+$(document).ready(function ($) {
+    $('.card-slider1').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [{
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                dots: false,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+});
+
+
 // ! SLider Playing
+
+$(document).ready(function ($) {
+    $('.card-slider-player').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [{
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                dots: false,
+                arrows: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }]
+    });
+});
+
+
+
+
+
+// ! SLider schedule
 
 $(document).ready(function ($) {
     $('.card-slider-playing').slick({
