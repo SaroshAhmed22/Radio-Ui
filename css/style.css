@@ -697,8 +697,8 @@ nav a{
 
 }
 .card-img-top{
-    width: 100% !important;
-    height: auto !important;
+    /* width: 100% !important;
+    height: 100px !important; */
 }
 
 .main-setting{
@@ -1063,11 +1063,11 @@ padding:10px 20px;
 
  }
 .page-footer h5{
-    font-size: 23px
+    font-size: 18px
 }
 
 .page-footer h6{
-    font-size: 14px !important;
+    font-size: 12px !important;
 }
 
 
@@ -1122,7 +1122,7 @@ header img {
   }
 
   .my-over-2 h1{
-      font-size: 40px;
+      font-size: 30px;
   }
 
   .now-playing{
@@ -1261,14 +1261,23 @@ table.table th, table.table td {
 }
 .engr-section img {
     width: 284;
-    height: 300px !important;
+    height: 200px !important;
+}
+
+.engr-section h4{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.engr-section p{
+  font-size: 13px;
 }
 
 .engr-img-square{
     position: absolute;
     border: 5px solid rgb(254, 206, 82);
-    width: 95%;
-    height: 70%;
+    width: 100%;
+    height: 206px;
     margin-top: -19px;
     margin-left: -20px;
 }
@@ -1734,8 +1743,16 @@ padding-bottom: 50px;
 display: none !important;
 }
 
+.engr-para{
+  color: black !important;
+}
 
 .navbar {
   /* height:80px; */
+
+}
+
+footer ul li a{
+  font-size: 11px !important ;
 
 }
