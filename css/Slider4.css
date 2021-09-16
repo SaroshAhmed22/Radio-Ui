@@ -70,7 +70,8 @@ circle {
 }
 
 .right {
-  margin-left: 460px;
+  /* left: 21%; */
+  margin-left: 411px;
   margin-top: 168px;
   border: 1px solid #849494;
   background-color: transparent;

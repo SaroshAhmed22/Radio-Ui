@@ -282,6 +282,10 @@
   position: relative;
   width: 320px;
   height: 320px;
+  /* border: 2px solid red; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   
 }
 /* .cover{
@@ -290,13 +294,14 @@
 
 
 .play-button {
+  
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   top: 46%;
-  left: 50% !important;
-  transform: translate(-50%, -50%);
+  left: 22% !important;
+  transform: translate(50%, -50%);
   width: 100px;
   height:100px;
   background: linear-gradient(

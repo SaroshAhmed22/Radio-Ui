@@ -1,8 +1,20 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+    .program-main-head  ,.studio-main-head{
+        font-size: 20px;
+    }
+
+    .platform-head {
+        font-size: 20px;
+    }
     .play-button {
-        /* left: 48%; */
+        
+        left: 50% !important;
+        transform: translate(-56%, -50%);
+    }
+    .se1 , .se2 ,  .se3 , .se4{
+        width: 100px;
     }
 
     .cover {
