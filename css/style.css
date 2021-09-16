@@ -296,7 +296,7 @@
   position: absolute;
   top: 46%;
   left: 50% !important;
-  transform: translate(-57%, -50%);
+  transform: translate(-50%, -50%);
   width: 100px;
   height:100px;
   background: linear-gradient(
@@ -1708,7 +1708,7 @@ padding-bottom: 50px;
 
   .kenny_and_img{
     width: 350px;
-    height: 350px;
+    /* height: 350px; */
   }
 
   .kenny_andr{
@@ -1755,4 +1755,8 @@ display: none !important;
 footer ul li a{
   font-size: 11px !important ;
 
+}
+
+.bio-para{
+  text-align: left !important;
 }
