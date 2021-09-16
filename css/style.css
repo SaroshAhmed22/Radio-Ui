@@ -946,23 +946,22 @@ padding:10px 20px;
     background: linear-gradient(
         45deg
         , #26a9e0, #2b388f);
-        height: 230px;
 }
  
 
 .program-2a{
-    height: 80% !important;
-    width: 80%;
+    height: 200px !important;
+    width: 85%;
     border: 7px solid white !important;
     flex-direction: column;
 }
 .program-2a h2 , .program-3a h2{
-    font-size: 35px !important;
+    font-size: 27px !important;
 }
 
 .program-3a{
     height: 200px !important;
-    width: 260px;
+    width: 85%;
     border: 7px solid rgb(254, 206, 82) !important;
     flex-direction: column;
 }
