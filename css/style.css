@@ -278,7 +278,7 @@
 
 /*  */
 .disc-placeholder {
-  float: left;
+  /* float: left; */
   position: relative;
   width: 320px;
   height: 320px;
@@ -294,9 +294,9 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 30%;
-  left: 52% !important;
-  transform: translate(-50%, -50%);
+  top: 46%;
+  left: 50% !important;
+  transform: translate(-53%, -50%);
   width: 100px;
   height:100px;
   background: linear-gradient(
