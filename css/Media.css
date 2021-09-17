@@ -1,6 +1,23 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+
+    #player-container #play-pause, #player-container2 #play-pause2, #player-container3 #play-pause3, #player-container4 #play-pause4, #player-container5 #play-pause5, #player-container6 #play-pause6, #player-container7 #play-pause7, #player-container8 #play-pause8, #player-container8 #play-pause8, #player-container9 #play-pause9, #player-container10 #play-pause10, #player-container11 #play-pause11, #player-container12 #play-pause12, #player-container13 #play-pause13, #player-container14 #play-pause14 {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    .audio-container .audio-controls {
+        padding: 6px;
+    }
+
+.title{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
     .program-main-head  ,.studio-main-head{
         font-size: 20px;
     }

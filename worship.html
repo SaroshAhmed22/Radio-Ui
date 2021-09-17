@@ -313,9 +313,75 @@
                   <p class="card-text about-para "> Release Year: <span class="ml-2 text-primary">2012</span> </p>
                   <p class="card-text about-para "> Album Price: <span class="ml-3 text-primary">$ 14</span> </p>
 
-                  <div class="text-right">
+                  <!-- <div class="text-right">
                     <a href="#" class="text-right btn btn-primary album-bt1">LOGIN TO BUY</a>
+                  </div> -->
+
+                  <div class="text-right">
+                    <a href="" class="btn btn-default btn-rounded  text-right btn btn-primary album-bt1"
+                      data-toggle="modal" data-target="#modalLoginForm">LOGIN TO BUY</a>
                   </div>
+
+
+                  <!-- ! login to buy modal form start -->
+                  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog " role="document">
+                      <div class="modal-content">
+                        <div class="modal-header text-center " style="background: white !important;">
+                          <div class=" text-center  w-100">
+                            <img src="img/header/logo.png" class="" height="70" alt="" />
+                          </div>
+                          <!-- <h4 class="modal-title w-100 font-weight-bold">Sign in</h4> -->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" style="color:black !important;" class="">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body mx-3">
+                          <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <input type="email" id="defaultForm-email" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                          </div>
+
+                          <div class="md-form mb-4">
+                            <i class="fas fa-lock prefix grey-text"></i>
+                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                          </div>
+                          <!-- Default unchecked -->
+                          <div>
+                            <div class="float-left custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                              <label class="custom-control-label" for="defaultUnchecked" class=""
+                                style="font-size: 15px;">Remember
+                                me
+                              </label>
+                            </div>
+                            <div class="float-right ">
+                              <a href="#" style=" text-decoration: underline !important; font-size: 13px;">Forgot your
+                                password?</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-foote mt-4 pb-2 w-100">
+                          <div class="float-right mr-4">
+                            <a href="#" class="mr-2"
+                              style=" text-decoration: underline !important; color: black; font-size: 13px;">Register
+                              your
+                              account</a>
+                            <button class="btn text-white" style="border-radius: 10px;  background: linear-gradient(
+          45deg
+          , #26a9e0, #2b388f);">Login</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ! login to buy modal form end -->
+
+
+
                   <h3 class="card-title mt-4">Born to Artist:</h3>
                   <p class=" card-text about-para "> <span class="float-left text-danger">Apostle Gary L. Wyatt</span>
                     <span class="float-right">
@@ -346,12 +412,66 @@
       <div class=" se1"></div>
       <div class="  se2"></div>
     </div>
+
+    <!-- !audio tracks start -->
+    <section>
+      <audio id="track">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+
+      <audio id="track2">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+
+      <audio id="track3">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track4">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track5">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track6">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track7">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track8">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track9">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track10">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track11">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track12">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track13">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+      <audio id="track14">
+        <source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+      </audio>
+    </section>
+    <!-- !audio tracks end -->
+
     <!-- ! 1 -->
-    <div class="wrapper">
+    <div class="wrapper ">
       <div class="audio-container ">
         <div class="audio-controls ">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container">
+              <div id="play-pause" class="play">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">1. <span class="ml-2 ">
@@ -365,9 +485,13 @@
     <!-- !2 -->
     <div class="wrapper">
       <div class="audio-container">
-        <div class="audio-controls">
+        <div class="audio-controls ">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container2">
+              <div id="play-pause2" class="play2">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">2. <span class="ml-2 ">
@@ -383,7 +507,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container3">
+              <div id="play-pause3" class="play3">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">3. <span class="ml-2 ">
@@ -399,7 +527,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container4">
+              <div id="play-pause4" class="play4">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">4. <span class="ml-2 ">
@@ -415,7 +547,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container5">
+              <div id="play-pause5" class="play5">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">5. <span class="ml-2 ">
@@ -431,7 +567,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container6">
+              <div id="play-pause6" class="play6">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">6. <span class="ml-2 ">
@@ -447,7 +587,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container7">
+              <div id="play-pause7" class="play7">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">7. <span class="ml-2 ">
@@ -463,7 +607,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container8">
+              <div id="play-pause8" class="play8">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">8. <span class="ml-2 ">
@@ -479,7 +627,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container9">
+              <div id="play-pause9" class="play9">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">8. <span class="ml-2 ">
@@ -495,7 +647,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container10">
+              <div id="play-pause10" class="play10">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">10. <span class="ml-2 ">
@@ -511,7 +667,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container11">
+              <div id="play-pause11" class="play11">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">11. <span class="ml-2 ">
@@ -527,7 +687,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container12">
+              <div id="play-pause12" class="play12">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">12. <span class="ml-2 ">
@@ -543,7 +707,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container13">
+              <div id="play-pause13" class="play13">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">13. <span class="ml-2 ">
@@ -559,7 +727,11 @@
       <div class="audio-container">
         <div class="audio-controls">
           <button class="btn-primary-outline audio-button play ap-toggle-btn" data-toggle="tooltip"
-            data-placement="bottom" title="Stream Audio"><i class="fas fa-play" style="font-size: 25px;"></i></button>
+            data-placement="bottom" title="Stream Audio">
+            <div id="player-container14">
+              <div id="play-pause14" class="play14">Play</div>
+            </div>
+          </button>
         </div>
         <div class="audio-description ">
           <h2 class="title ml-3">14. <span class="ml-2 ">
@@ -817,11 +989,333 @@
 
 
 
+  <!-- !play audiio js startr -->
+  <script>
+    // ! 1 start
+    var track = document.getElementById('track');
+    var controlBtn = document.getElementById('play-pause');
+    function playPause() {
+      if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+      } else {
+        track.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+      }
+    }
+    controlBtn.addEventListener("click", playPause);
+    track.addEventListener("ended", function () {
+      controlBtn.className = "play";
+    });
+
+    // ! 1 end
+
+    // ! 2 start
+    var track2 = document.getElementById('track2');
+    var controlBtn2 = document.getElementById('play-pause2');
+
+    function playPause2() {
+      if (track2.paused) {
+        track2.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn2.className = "pause";
+      } else {
+        track2.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn2.className = "play";
+      }
+    }
+
+    controlBtn2.addEventListener("click", playPause2);
+    track2.addEventListener("ended", function () {
+      controlBtn2.className = "play";
+    });
+    // ! 2 end
+
+
+    // ! 3 start
+    var track3 = document.getElementById('track3');
+    var controlBtn3 = document.getElementById('play-pause3');
+
+    function playPause3() {
+      if (track3.paused) {
+        track3.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn3.className = "pause";
+      } else {
+        track3.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn3.className = "play";
+      }
+    }
+
+    controlBtn3.addEventListener("click", playPause3);
+    track3.addEventListener("ended", function () {
+      controlBtn3.className = "play";
+    });
+    // ! 3 end
+
+
+
+    // ! 4 start
+    var track4 = document.getElementById('track4');
+    var controlBtn4 = document.getElementById('play-pause4');
+
+    function playPause4() {
+      if (track4.paused) {
+        track4.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn4.className = "pause";
+      } else {
+        track4.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn4.className = "play";
+      }
+    }
+
+    controlBtn4.addEventListener("click", playPause4);
+    track4.addEventListener("ended", function () {
+      controlBtn4.className = "play";
+    });
+    // ! 4 end
+
+
+    // ! 5 start
+    var track5 = document.getElementById('track5');
+    var controlBtn5 = document.getElementById('play-pause5');
+
+    function playPause5() {
+      if (track5.paused) {
+        track5.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn5.className = "pause";
+      } else {
+        track5.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn5.className = "play";
+      }
+    }
+
+    controlBtn5.addEventListener("click", playPause5);
+    track5.addEventListener("ended", function () {
+      controlBtn5.className = "play";
+    });
+    // ! 5 end
+
+
+    // ! 6 start
+    var track6 = document.getElementById('track6');
+    var controlBtn6 = document.getElementById('play-pause6');
+
+    function playPause6() {
+      if (track6.paused) {
+        track6.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn6.className = "pause";
+      } else {
+        track6.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn6.className = "play";
+      }
+    }
+
+    controlBtn6.addEventListener("click", playPause6);
+    track6.addEventListener("ended", function () {
+      controlBtn6.className = "play";
+    });
+    // ! 6 end
 
 
 
 
+    // ! 7 start
+    var track7 = document.getElementById('track7');
+    var controlBtn7 = document.getElementById('play-pause7');
 
+    function playPause7() {
+      if (track7.paused) {
+        track7.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn7.className = "pause";
+      } else {
+        track7.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn7.className = "play";
+      }
+    }
+
+    controlBtn7.addEventListener("click", playPause7);
+    track7.addEventListener("ended", function () {
+      controlBtn7.className = "play";
+    });
+    // ! 7 end
+
+
+
+    // ! 8 start
+    var track8 = document.getElementById('track8');
+    var controlBtn8 = document.getElementById('play-pause8');
+
+    function playPause8() {
+      if (track8.paused) {
+        track8.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn8.className = "pause";
+      } else {
+        track8.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn8.className = "play";
+      }
+    }
+
+    controlBtn8.addEventListener("click", playPause8);
+    track8.addEventListener("ended", function () {
+      controlBtn8.className = "play";
+    });
+    // ! 8 end
+
+
+    // ! 9 start
+    var track9 = document.getElementById('track9');
+    var controlBtn9 = document.getElementById('play-pause9');
+
+    function playPause9() {
+      if (track9.paused) {
+        track9.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn9.className = "pause";
+      } else {
+        track9.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn9.className = "play";
+      }
+    }
+
+    controlBtn9.addEventListener("click", playPause9);
+    track9.addEventListener("ended", function () {
+      controlBtn9.className = "play";
+    });
+    // ! 9 end
+
+
+    // ! 10 start
+    var track10 = document.getElementById('track10');
+    var controlBtn10 = document.getElementById('play-pause10');
+
+    function playPause10() {
+      if (track10.paused) {
+        track10.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn10.className = "pause";
+      } else {
+        track10.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn10.className = "play";
+      }
+    }
+
+    controlBtn10.addEventListener("click", playPause10);
+    track10.addEventListener("ended", function () {
+      controlBtn10.className = "play";
+    });
+    // ! 10 end
+
+
+    // ! 11 start
+    var track11 = document.getElementById('track11');
+    var controlBtn11 = document.getElementById('play-pause11');
+
+    function playPause11() {
+      if (track11.paused) {
+        track11.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn11.className = "pause";
+      } else {
+        track11.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn11.className = "play";
+      }
+    }
+
+    controlBtn11.addEventListener("click", playPause11);
+    track11.addEventListener("ended", function () {
+      controlBtn11.className = "play";
+    });
+    // ! 11 end
+
+
+    // ! 12 start
+    var track12 = document.getElementById('track12');
+    var controlBtn12 = document.getElementById('play-pause12');
+
+    function playPause12() {
+      if (track12.paused) {
+        track12.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn12.className = "pause";
+      } else {
+        track12.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn12.className = "play";
+      }
+    }
+
+    controlBtn12.addEventListener("click", playPause12);
+    track12.addEventListener("ended", function () {
+      controlBtn12.className = "play";
+    });
+    // ! 12 end
+
+
+
+    // ! 13 start
+    var track13 = document.getElementById('track13');
+    var controlBtn13 = document.getElementById('play-pause13');
+
+    function playPause13() {
+      if (track13.paused) {
+        track13.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn13.className = "pause";
+      } else {
+        track13.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn13.className = "play";
+      }
+    }
+
+    controlBtn13.addEventListener("click", playPause13);
+    track13.addEventListener("ended", function () {
+      controlBtn13.className = "play";
+    });
+    // ! 13 end
+
+
+    // ! 14 start
+    var track14 = document.getElementById('track14');
+    var controlBtn14 = document.getElementById('play-pause14');
+
+    function playPause14() {
+      if (track14.paused) {
+        track14.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn14.className = "pause";
+      } else {
+        track14.pause();
+        //controlBtn.textContent = "Play";
+        controlBtn14.className = "play";
+      }
+    }
+
+    controlBtn14.addEventListener("click", playPause14);
+    track14.addEventListener("ended", function () {
+      controlBtn14.className = "play";
+    });
+// ! 14 end
+  </script>
+  <!-- !play audiio js end -->
   <!-- jQuery -->
   <script type=" text/javascript" src="js/jquery.min.js">
     </script>
