@@ -1240,8 +1240,8 @@ header img {
     flex-direction: column;
 }
 .schedule-table{
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    /* padding-bottom: 40px; */
 }
 .schedule-advertise{
     padding-top: 40px;
@@ -1265,8 +1265,8 @@ table.table th, table.table td {
     padding-bottom:100px;
 }
 .engr-section img {
-    width: 284;
-    height: 200px !important;
+    /* width: 284; */
+    height: 330px !important;
 }
 
 .engr-section h4{
@@ -1794,3 +1794,79 @@ footer ul li a{
 .pause {
    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
 }
+
+/* ! playing history change start */
+.play-card-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.history-d2 h4{
+  font-size: 17px;
+
+
+}
+
+.history-d2 h5{
+  font-size: 15px;
+
+}
+
+.history-d2 h6{
+ font-size: 14px;
+ color: #EC1C24 !important;
+}
+.history-d3 h5{
+  font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.schedule-links{
+  border-radius: 10px !important;
+}
+
+.schedule-links a{
+  color: white;
+  font-size: 14px !important;
+}
+
+.md-pills .active{
+  background-color: white;
+  color: #cb212c;
+  border-radius: 10px;
+}
+.catlog-list i {
+  color: #ffe400;
+}
+.catlog-list{
+  justify-content: right;
+}
+
+.view-det-btn button{
+  font-weight : bold;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(
+    45deg
+    , #26a9e0, #2b388f);
+    font-size: 12px;
+}
+
+.view-det-btn a{
+  color: white;
+ 
+}
+.view-det-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.apos2{
+  width: 95%;
+}
+/* ! playing history change end */

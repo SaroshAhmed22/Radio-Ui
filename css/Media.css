@@ -1,13 +1,60 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+    /* .view-det-btn{
+        padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    } */
+    
+    .engr-section img {
+        height: 220px !important;
+    }
+    
+    .apos ,.apos2{
+        text-align: center  !important;
+    }
+   
+    .catlog-list{
+        justify-content: center;
+      }
+    .catlog-card-content{
+        flex-direction: column;
+    }
+
+    .catlog-card-content h4{
+text-align: center;
+    }
+
+    .history-d2 h4{
+        font-size: 15px;
+      
+      }
+      .history-d2 h5{
+        font-size: 13px;
+      }
+      
+      .history-d2 h6{
+       font-size: 12px;
+      }
+      .history-d3 h5{
+        font-size: 13px;
+          font-weight: lighter;
+      }
+    .history-d2-main {
+        flex-direction: column;
+    }
+
+    .history-main{
+        flex-direction: column;
+    }
 
     #player-container #play-pause, #player-container2 #play-pause2, #player-container3 #play-pause3, #player-container4 #play-pause4, #player-container5 #play-pause5, #player-container6 #play-pause6, #player-container7 #play-pause7, #player-container8 #play-pause8, #player-container8 #play-pause8, #player-container9 #play-pause9, #player-container10 #play-pause10, #player-container11 #play-pause11, #player-container12 #play-pause12, #player-container13 #play-pause13, #player-container14 #play-pause14 {
         width: 36px;
         height: 36px;
     }
-
-
 
     .audio-container .audio-controls {
         padding: 6px;
