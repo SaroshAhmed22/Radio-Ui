@@ -1,6 +1,18 @@
 
    /* ! mobile */
 @media screen and (max-width: 600px) {
+
+    .album-bt1a{
+        margin-top: 0px;
+      }
+    .album-bt1{
+        font-size: 11px !important;
+    }
+
+    .worship-detail{
+        justify-content: space-evenly;
+        flex-direction: column;
+      }
     /* .view-det-btn{
         padding-top: 10px;
     padding-bottom: 10px;
@@ -9,10 +21,15 @@
 
     } */
     
-    .engr-section img {
+    /* .engr-section img {
         height: 220px !important;
     }
-    
+     */
+
+     .engr-section-img .card-img-top{
+        height:220px !important;
+      }
+      
     .apos ,.apos2{
         text-align: center  !important;
     }
